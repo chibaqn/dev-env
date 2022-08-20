@@ -2,7 +2,8 @@
     "recommendations": [
         "dracula-theme.theme-dracula",
         "ms-azuretools.vscode-docker",
+        "asvetliakov.vscode-neovim",
         "oderwat.indent-rainbow",
-        "dbaeumer.vscode-eslint"
+        "dbaeumer.vscode-eslint",
     ]
 }

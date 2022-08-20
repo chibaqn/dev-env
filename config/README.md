@@ -1,9 +1,9 @@
-# dotfiles
+# 設定ファイル
 
-ドットファイルを配置する。
+設定ファイルを配置する。
 
 ```shell
-$ sh dotfilesLink.sh
+$ sh link-config-files.sh
 The dotfiles link process was successful.
 ```
 

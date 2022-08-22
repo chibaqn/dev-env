@@ -12,7 +12,6 @@ set pumheight=10           "補完メニューの高さを設定"
 set ruler                  "ルーラーを表示"
 set number                 "行番号を表示"
 set cursorline             "現在の行を強調表示"
-set visualbell             "ビープ音を可視化"
 set showmatch              "括弧入力時の対応する括弧を表示"
 set laststatus=2           "ステータスラインを常に表示"
 set wrap                   "ウィンドウの幅より長い行は折り返して、次の行に続けて表示する"
@@ -30,7 +29,7 @@ set tabstop=2                "インデントをスペース2つ分に設定"
 set tabstop=2                "行頭以外のTab文字の表示幅（スペースいくつ分）"
 set shiftwidth=2             "行頭でのTab文字の表示幅"
 set autoindent               "自動インデント"
-set smartindent              "オートインデント"
+set smartindent              "オートイデント"
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 検索系
@@ -58,25 +57,6 @@ inoremap <C-l> <Right>
 "折り返し時に表示行単位での移動できるようにする"
 nnoremap j gj
 nnoremap k gk
-
-"画面移動のコマンドを変更"
-nnoremap s <Nop>
-nnoremap sj <C-w>j
-nnoremap sk <C-w>k
-nnoremap sl <C-w>l
-nnoremap sh <C-w>h
-nnoremap sJ <C-w>J
-nnoremap sK <C-w>K
-nnoremap sL <C-w>L
-nnoremap sH <C-w>H
-
-"タブ移動のコマンドを変更"
-nnoremap sn gt
-nnoremap sp gT
-
-"画面分割のコマンドを変更"
-nnoremap ss :<C-u>sp<CR>
-nnoremap sv :<C-u>vs<CR>
 
 "保存時に行末の空白を削除する"
 autocmd BufWritePre * :%s/\s\+$//ge

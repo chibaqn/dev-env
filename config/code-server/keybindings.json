@@ -9,5 +9,10 @@
     "key": "ctrl+c",
     "command": "-vscode-neovim.escape",
     "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && !dirtyDiffVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !parameterHintsVisible && !referenceSearchVisible && neovim.mode == 'normal'"
+  },
+  {
+    "key": "ctrl1 t",
+    "command": "workbench.action.terminal.focus",
+    "when": "editorTextFocus"
   }
 ]

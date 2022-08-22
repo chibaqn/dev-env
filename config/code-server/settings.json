@@ -1,5 +1,6 @@
 {
   "vscode-neovim.neovimExecutablePaths.linux": "/home/kaito_chiba_64/.local/bin/nvim",
+  "vscode-neovim.neovimInitVimPaths.linux": "/home/kaito_chiba_64/.config/nvim/init.vim",
   "workbench.colorTheme": "Dracula",
   "workbench.list.automaticKeyboardNavigation": false,
   "workbench.startupEditor": "none",
